@@ -1,0 +1,4 @@
+flex-direction: column;
+-changin the main axis;
+-the aixs matters to customize the flex-flex spaces;
+-flexing along the main axis; flex directions!
