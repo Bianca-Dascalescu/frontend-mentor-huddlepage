@@ -1,6 +1,8 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
 
 body{
@@ -10,12 +12,25 @@ body{
 }
 
 #container{
-    padding: 30px;
-    
+    padding: 30px; 
+    height: 100vh;
 }
 
 #logo, #visual-panel{
     width: 100%
+}
+
+#register-button{
+    background-color: white;
+    border: none;
+    text-align: center;
+    padding: 10px;
+    border-radius: 50px;
+    color: hsl(257, 40%, 49%);
+}
+
+#button-register:hover{
+    background-color: rgb(221, 182, 221);
 }
 
 /* media querie mobile */
@@ -49,27 +64,22 @@ body{
     margin-bottom: 20px;
 }
 
+
 #register-button{
-    background-color: white;
-    width: 80%;
-    border: none;
-    text-align: center;
-    padding: 15px;
-    border-radius: 50px;
-    margin-top: 20px;
-    color: hsl(257, 40%, 49%);
-    font-size: 16px;
     display: block;
     margin: 0 auto;
+    width: 80%;
+    font-size: 18px;
+    margin-top: 40px;
 }
 
 #logos{
     color: white;
     text-align: center;
-    margin-top: 70px;
     font-size: large;
-    box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+    margin-top: 70px;
+    padding-bottom: 50px;
 }
 }
 
@@ -87,14 +97,40 @@ body{
     float: left;
 }
 
+#visual-panel{
+    margin-top: 30px;
+}
+
 #right-container{
     width: 50%;
     float: right;
+    padding: 50px;
 }
 
 #logo{
     max-width: 30%;
     margin-bottom: 20px;
+}
+
+#headline{
+    margin-bottom: 30px;
+}
+
+#register-button{
+    margin-top: 20px;
+    width: 40%;
+    display: block;
+    font-size: 20px;
+}
+
+#logos{
+    font-size: 25px;
+    float: right;
+    margin-top: 220px;
+}
+
+#text{
+    padding-top: 100px;
 }
 }
 
